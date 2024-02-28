@@ -94,15 +94,15 @@ errorbar.capsize    : 0
 xtick.major.size     : 2      # major tick size in points
 xtick.major.width    : 0.35    # major tick width in points
 xtick.minor.size     : 0      # minor tick size in points
-xtick.major.pad      : 3      # distance to major tick label in points
-xtick.minor.pad      : 3      # distance to the minor tick label in points
+xtick.major.pad      : 2      # distance to major tick label in points
+xtick.minor.pad      : 2      # distance to the minor tick label in points
 xtick.labelsize      : 8      # fontsize of the tick labels
 
 ytick.major.size     : 2    # major tick size in points
 ytick.major.width    : 0.35    # major tick width in points
 ytick.minor.size     : 0      # minor tick size in points
-ytick.major.pad      : 3      # distance to major tick label in points
-ytick.minor.pad      : 3      # distance to the minor tick label in points
+ytick.major.pad      : 2      # distance to major tick label in points
+ytick.minor.pad      : 2      # distance to the minor tick label in points
 ytick.labelsize      : 8 # fontsize of the tick labels
 
 ### Legend
