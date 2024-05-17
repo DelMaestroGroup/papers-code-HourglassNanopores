@@ -15,5 +15,8 @@ def base_dir(_ΔR,cylinder=True):
         base += '/CYLINDER'
     return base
 
-def out_name(_ΔR):
-    return f'dR_eq_{_ΔR:3.1f}'
+def repo_dir(_ΔR,cylinder=True):
+    base = f'../data/{lab(_ΔR)}'
+    if cylinder:
+        base += '/CYLINDER'
+    return base
