@@ -7,7 +7,7 @@
 ### FONT
 font.size           : 18.0
 font.family         : sans-serif
-font.sans-serif     : Helvetica
+font.sans-serif     : Helvetica, DejaVu Sans, Bitstream Vera Sans, Computer Modern Sans Serif, Lucida Grande, Verdana, Geneva, Lucid, Arial, Avant Garde, sans-serif
 font.weight         : 5
 text.hinting        : auto
 text.hinting_factor : 8
