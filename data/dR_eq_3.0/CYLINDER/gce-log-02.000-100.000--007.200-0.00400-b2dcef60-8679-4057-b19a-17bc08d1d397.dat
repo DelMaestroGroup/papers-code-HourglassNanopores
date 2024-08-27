@@ -1,0 +1,1503 @@
+# PIMCID: b2dcef60-8679-4057-b19a-17bc08d1d397
+
+# ./pimc.e -N 956 -p 422 -T 2.0 -C 2.560000000000000e-01 -D 3.100000000000000e-01 --geometry=cylinder -r 12 -L 100 -u -7.200000000000000e+00 -t 0.004 -M 8 --estimator_radius=1.75 -E 0 -S 1000 -l 12 -X hg_tube -I aziz --hourglass_width=1.5 --hourglass_radius=3.0 --label=w3p0dR3p0 -W 47 -R b2dcef60-8679-4057-b19a-17bc08d1d397 --estimator="cylinder linear density" --estimator="cylinder linear potential" --estimator="cylinder energy" --estimator="cylinder number particles" --estimator=energy --estimator="number particles" --estimator="diagonal fraction" 
+
+---------- Begin Simulation Parameters ----------
+
+Command String          	:	./pimc.e -s /ocean/projects/phy230020p/delmaes/Projects/HourGlass/R_eq_12.0/dR_eq_3.0/Input/gce-state-02.000-100.000--007.200-0.00400-278756884.dat -N 956 -p 422 -T 2.0 -C 0.256 -D 0.31 --geometry=cylinder -r 12 -L 100 -u -7.2 -t 0.004 -M 8 --estimator_radius=1.75 -E 0 -S 1000 -l 12 -X hg_tube -I aziz --hourglass_width=1.5 --estimator="cylinder linear density" --estimator="cylinder linear potential" --estimator="cylinder energy" --estimator="cylinder number particles" --estimator=energy --estimator="number particles" --estimator="diagonal fraction" --hourglass_radius=3.0 --label=w3p0dR3p0 -W 47 
+Ensemble                	:	grand canonical
+Simulation Type         	:	PIMC
+Action Type             	:	gsf
+Number of paths         	:	1
+Interaction Potential   	:	aziz
+External Potential      	:	hg_tube
+HourGlass Radius        	:	3.00   
+HourGlass Width         	:	1.50   
+Temperature             	:	2.00000
+Chemical Potential      	:	-7.20000
+Particle Mass           	:	4.00300
+Number Time Slices      	:	124
+Specified Imaginary Time Step	:	0.00400
+Imaginary Time Step     	:	0.00403
+Imaginary Time Length   	:	0.50000
+Initial Number Particles	:	956
+Initial Density         	:	0.02113
+Num. Broken World-lines 	:	0
+Container Type          	:	Cylinder
+Cylinder Radius         	:	12.00000
+Estimator Radius        	:	1.75000
+Container Dimensions    	:	24.00000 x 24.00000 x 100.00000
+Container Volume        	:	45238.93421
+Lookup Table            	:	2 x 2 x 8
+Maximum Winding Sector  	:	1
+Initial Worm Constant   	:	0.25600
+Worm Constant           	:	0.25600
+Initial CoM Delta       	:	0.31000
+CoM Delta               	:	0.31000
+Bisection Parameter     	:	3
+Update Length           	:	8
+Potential Cutoff Length 	:	12.00000
+Bin Size                	:	100
+Number EQ Steps         	:	0
+Number Bins Stored      	:	1000
+Random Number Seed      	:	140275
+Virial Window           	:	5
+PIMCID Label            	:	w3p0dR3p0
+
+---------- End Simulation Parameters ------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.27095
+
+center of mass               	:	0.51391	(377109/733797)
+
+bisection                    	:	0.82529	(11656750/14124344)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00371	(14465/3898933)
+open         Level 2         	:	0.00640	(25183/3936906)
+open         Level 3         	:	0.00705	(56035/7949179)
+open                         	:	0.00606	(95683/15785018)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99552	(14452/14517)
+close        Level 2         	:	0.94957	(25400/26749)
+close        Level 3         	:	0.81761	(55825/68278)
+close                        	:	0.87341	(95677/109544)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00568	(22852/4024571)
+insert       Level 2         	:	0.00366	(14703/4022281)
+insert       Level 3         	:	0.00243	(19512/8044225)
+insert                       	:	0.00355	(57067/16091077)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(22722/22722)
+remove       Level 2         	:	1.00000	(14746/14746)
+remove       Level 3         	:	0.94418	(19605/20764)
+remove                       	:	0.98010	(57073/58232)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70888	(453705/640031)
+advance head Level 2         	:	0.48621	(311675/641029)
+advance head Level 3         	:	0.27762	(354710/1277665)
+advance head                 	:	0.43775	(1120090/2558725)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.71116	(453190/637259)
+recede head  Level 2         	:	0.48937	(310246/633973)
+recede head  Level 3         	:	0.28054	(355615/1267601)
+recede head                  	:	0.44077	(1119051/2538833)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.71040	(452383/636802)
+advance tail Level 2         	:	0.48834	(310752/636343)
+advance tail Level 3         	:	0.28109	(355793/1265758)
+advance tail                 	:	0.44071	(1118928/2538903)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70833	(453983/640922)
+recede tail  Level 2         	:	0.48634	(311318/640129)
+recede tail  Level 3         	:	0.27708	(354607/1279800)
+recede tail                  	:	0.43732	(1119908/2560851)
+
+swap head                    	:	0.05757	(181919/3160046)
+
+swap tail                    	:	0.05826	(184079/3159758)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            5018	            2735
+cylinder linear potential        	:	            5018	            2735
+cylinder energy                  	:	            5018	            2735
+cylinder number particles        	:	            5018	            2735
+energy                           	:	            5018	            2735
+number particles                 	:	            5018	            2735
+diagonal fraction                	:	            5018	            5018
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.26136
+
+center of mass               	:	0.51500	(215081/417636)
+
+bisection                    	:	0.82566	(6594026/7986393)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00367	(8640/2353229)
+open         Level 2         	:	0.00633	(15041/2374817)
+open         Level 3         	:	0.00700	(33575/4799136)
+open                         	:	0.00601	(57256/9527182)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99459	(8646/8693)
+close        Level 2         	:	0.95564	(15015/15712)
+close        Level 3         	:	0.81891	(33608/41040)
+close                        	:	0.87507	(57269/65445)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00562	(13648/2428184)
+insert       Level 2         	:	0.00358	(8693/2429958)
+insert       Level 3         	:	0.00235	(11425/4854078)
+insert                       	:	0.00348	(33766/9712220)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(13629/13629)
+remove       Level 2         	:	1.00000	(8761/8761)
+remove       Level 3         	:	0.93979	(11363/12091)
+remove                       	:	0.97889	(33753/34481)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70509	(235341/333775)
+advance head Level 2         	:	0.48090	(160620/334000)
+advance head Level 3         	:	0.27258	(181261/664993)
+advance head                 	:	0.43310	(577222/1332768)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.70786	(235166/332221)
+recede head  Level 2         	:	0.48427	(160027/330451)
+recede head  Level 3         	:	0.27574	(181288/657464)
+recede head                  	:	0.43668	(576481/1320136)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.70792	(234232/330873)
+advance tail Level 2         	:	0.48646	(160560/330056)
+advance tail Level 3         	:	0.27675	(182125/658082)
+advance tail                 	:	0.43739	(576917/1319011)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70589	(235035/332965)
+recede tail  Level 2         	:	0.48126	(160487/333472)
+recede tail  Level 3         	:	0.27305	(181963/666408)
+recede tail                  	:	0.43327	(577485/1332845)
+
+swap head                    	:	0.05792	(94238/1627138)
+
+swap tail                    	:	0.05827	(94905/1628779)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2838	            1645
+cylinder linear potential        	:	            2838	            1645
+cylinder energy                  	:	            2838	            1645
+cylinder number particles        	:	            2838	            1645
+energy                           	:	            2838	            1645
+number particles                 	:	            2838	            1645
+diagonal fraction                	:	            2838	            2838
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.26406
+
+center of mass               	:	0.51395	(213517/415443)
+
+bisection                    	:	0.82540	(6616386/8015937)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00362	(8401/2320623)
+open         Level 2         	:	0.00630	(14756/2340878)
+open         Level 3         	:	0.00697	(32917/4724734)
+open                         	:	0.00597	(56074/9386235)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99678	(8371/8398)
+close        Level 2         	:	0.95171	(14820/15572)
+close        Level 3         	:	0.81278	(32959/40551)
+close                        	:	0.87026	(56150/64521)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00566	(13516/2389897)
+insert       Level 2         	:	0.00358	(8561/2391570)
+insert       Level 3         	:	0.00234	(11199/4784087)
+insert                       	:	0.00348	(33276/9565554)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(13520/13520)
+remove       Level 2         	:	1.00000	(8439/8439)
+remove       Level 3         	:	0.94209	(11241/11932)
+remove                       	:	0.97961	(33200/33891)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70683	(241585/341785)
+advance head Level 2         	:	0.48319	(165853/343248)
+advance head Level 3         	:	0.27457	(187768/683869)
+advance head                 	:	0.43481	(595206/1368902)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.70873	(241219/340352)
+recede head  Level 2         	:	0.48712	(165940/340657)
+recede head  Level 3         	:	0.27759	(187687/676134)
+recede head                  	:	0.43831	(594846/1357143)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.70838	(241324/340668)
+advance tail Level 2         	:	0.48802	(165305/338729)
+advance tail Level 3         	:	0.27844	(188624/677432)
+advance tail                 	:	0.43871	(595253/1356829)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70742	(241601/341525)
+recede tail  Level 2         	:	0.48403	(165991/342932)
+recede tail  Level 3         	:	0.27453	(188053/684993)
+recede tail                  	:	0.43495	(595645/1369450)
+
+swap head                    	:	0.05776	(96786/1675599)
+
+swap tail                    	:	0.05702	(95654/1677595)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2846	            1621
+cylinder linear potential        	:	            2846	            1621
+cylinder energy                  	:	            2846	            1621
+cylinder number particles        	:	            2846	            1621
+energy                           	:	            2846	            1621
+number particles                 	:	            2846	            1621
+diagonal fraction                	:	            2846	            2846
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.25615
+
+center of mass               	:	0.51083	(209679/410471)
+
+bisection                    	:	0.82429	(6506498/7893434)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00368	(8876/2410475)
+open         Level 2         	:	0.00638	(15527/2432821)
+open         Level 3         	:	0.00702	(34450/4910034)
+open                         	:	0.00603	(58853/9753330)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99496	(8880/8925)
+close        Level 2         	:	0.95126	(15576/16374)
+close        Level 3         	:	0.81761	(34455/42141)
+close                        	:	0.87353	(58911/67440)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00562	(13970/2487186)
+insert       Level 2         	:	0.00347	(8628/2487939)
+insert       Level 3         	:	0.00231	(11479/4976673)
+insert                       	:	0.00342	(34077/9951798)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(13942/13942)
+remove       Level 2         	:	1.00000	(8587/8587)
+remove       Level 3         	:	0.94296	(11490/12185)
+remove                       	:	0.97998	(34019/34714)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70804	(220754/311782)
+advance head Level 2         	:	0.48499	(152102/313617)
+advance head Level 3         	:	0.27522	(172061/625176)
+advance head                 	:	0.43573	(544917/1250575)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.71000	(220867/311082)
+recede head  Level 2         	:	0.49058	(151757/309343)
+recede head  Level 3         	:	0.27945	(172141/615993)
+recede head                  	:	0.44060	(544765/1236418)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.71056	(220446/310242)
+advance tail Level 2         	:	0.48671	(150997/310237)
+advance tail Level 3         	:	0.27816	(171362/616047)
+advance tail                 	:	0.43898	(542805/1236526)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70580	(220339/312185)
+recede tail  Level 2         	:	0.48452	(151674/313038)
+recede tail  Level 3         	:	0.27439	(170863/622694)
+recede tail                  	:	0.43503	(542876/1247917)
+
+swap head                    	:	0.05718	(86449/1511961)
+
+swap tail                    	:	0.05622	(85007/1512136)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2802	            1677
+cylinder linear potential        	:	            2802	            1677
+cylinder energy                  	:	            2802	            1677
+cylinder number particles        	:	            2802	            1677
+energy                           	:	            2802	            1677
+number particles                 	:	            2802	            1677
+diagonal fraction                	:	            2802	            2802
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.24919
+
+center of mass               	:	0.51359	(209748/408399)
+
+bisection                    	:	0.82491	(6462063/7833625)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00370	(9288/2507875)
+open         Level 2         	:	0.00640	(16187/2529500)
+open         Level 3         	:	0.00695	(35461/5101775)
+open                         	:	0.00601	(60936/10139150)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99398	(9241/9297)
+close        Level 2         	:	0.95361	(16344/17139)
+close        Level 3         	:	0.81403	(35420/43512)
+close                        	:	0.87215	(61005/69948)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00555	(14344/2584076)
+insert       Level 2         	:	0.00354	(9167/2586328)
+insert       Level 3         	:	0.00229	(11832/5166909)
+insert                       	:	0.00342	(35343/10337313)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(14311/14311)
+remove       Level 2         	:	1.00000	(9212/9212)
+remove       Level 3         	:	0.94287	(11750/12462)
+remove                       	:	0.98021	(35273/35985)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70386	(203035/288461)
+advance head Level 2         	:	0.48034	(139154/289701)
+advance head Level 3         	:	0.27117	(156699/577862)
+advance head                 	:	0.43156	(498888/1156024)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.70796	(203623/287619)
+recede head  Level 2         	:	0.48536	(139148/286690)
+recede head  Level 3         	:	0.27519	(156688/569372)
+recede head                  	:	0.43671	(499459/1143681)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.70774	(202815/286569)
+advance tail Level 2         	:	0.48441	(138355/285615)
+advance tail Level 3         	:	0.27716	(157628/568732)
+advance tail                 	:	0.43719	(498798/1140916)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70472	(202981/288031)
+recede tail  Level 2         	:	0.48218	(139051/288378)
+recede tail  Level 3         	:	0.27175	(157036/577868)
+recede tail                  	:	0.43236	(499068/1154277)
+
+swap head                    	:	0.05687	(78676/1383329)
+
+swap tail                    	:	0.05639	(78037/1383874)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2783	            1739
+cylinder linear potential        	:	            2783	            1739
+cylinder energy                  	:	            2783	            1739
+cylinder number particles        	:	            2783	            1739
+energy                           	:	            2783	            1739
+number particles                 	:	            2783	            1739
+diagonal fraction                	:	            2783	            2783
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.25372
+
+center of mass               	:	0.51327	(207602/404470)
+
+bisection                    	:	0.82446	(6399480/7762049)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00368	(8868/2411523)
+open         Level 2         	:	0.00642	(15612/2432393)
+open         Level 3         	:	0.00695	(34090/4905029)
+open                         	:	0.00601	(58570/9748945)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99270	(8840/8905)
+close        Level 2         	:	0.95286	(15584/16355)
+close        Level 3         	:	0.81727	(34188/41832)
+close                        	:	0.87361	(58612/67092)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00549	(13650/2486489)
+insert       Level 2         	:	0.00345	(8570/2485582)
+insert       Level 3         	:	0.00222	(11056/4973562)
+insert                       	:	0.00335	(33276/9945633)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(13686/13686)
+remove       Level 2         	:	1.00000	(8465/8465)
+remove       Level 3         	:	0.94339	(11082/11747)
+remove                       	:	0.98038	(33233/33898)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70615	(211192/299075)
+advance head Level 2         	:	0.48440	(144951/299239)
+advance head Level 3         	:	0.27232	(163777/601411)
+advance head                 	:	0.43337	(519920/1199725)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.70849	(211478/298491)
+recede head  Level 2         	:	0.48503	(143775/296427)
+recede head  Level 3         	:	0.27765	(164504/592485)
+recede head                  	:	0.43773	(519757/1187403)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.71039	(211739/298059)
+advance tail Level 2         	:	0.48812	(145105/297271)
+advance tail Level 3         	:	0.27907	(164871/590788)
+advance tail                 	:	0.43985	(521715/1186118)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70740	(211597/299118)
+recede tail  Level 2         	:	0.48381	(144998/299702)
+recede tail  Level 3         	:	0.27583	(165035/598320)
+recede tail                  	:	0.43573	(521630/1197140)
+
+swap head                    	:	0.05760	(83327/1446750)
+
+swap tail                    	:	0.05613	(81060/1444131)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2756	            1700
+cylinder linear potential        	:	            2756	            1700
+cylinder energy                  	:	            2756	            1700
+cylinder number particles        	:	            2756	            1700
+energy                           	:	            2756	            1700
+number particles                 	:	            2756	            1700
+diagonal fraction                	:	            2756	            2756
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.25659
+
+center of mass               	:	0.51441	(212339/412780)
+
+bisection                    	:	0.82525	(6552746/7940363)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00369	(8955/2424878)
+open         Level 2         	:	0.00638	(15603/2446585)
+open         Level 3         	:	0.00700	(34547/4938566)
+open                         	:	0.00602	(59105/9810029)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99330	(8895/8955)
+close        Level 2         	:	0.94792	(15818/16687)
+close        Level 3         	:	0.81636	(34413/42154)
+close                        	:	0.87212	(59126/67796)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00568	(14195/2500625)
+insert       Level 2         	:	0.00359	(8985/2501017)
+insert       Level 3         	:	0.00240	(12025/5000574)
+insert                       	:	0.00352	(35205/10002216)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(14124/14124)
+remove       Level 2         	:	1.00000	(8982/8982)
+remove       Level 3         	:	0.94611	(12078/12766)
+remove                       	:	0.98082	(35184/35872)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.71019	(223904/315275)
+advance head Level 2         	:	0.48492	(152580/314653)
+advance head Level 3         	:	0.27735	(174405/628837)
+advance head                 	:	0.43764	(550889/1258765)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.71165	(223181/313612)
+recede head  Level 2         	:	0.49203	(152845/310641)
+recede head  Level 3         	:	0.28153	(174574/620091)
+recede head                  	:	0.44248	(550600/1244344)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.71054	(222324/312895)
+advance tail Level 2         	:	0.48822	(151987/311309)
+advance tail Level 3         	:	0.27736	(172341/621357)
+advance tail                 	:	0.43888	(546652/1245561)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70541	(221889/314555)
+recede tail  Level 2         	:	0.48225	(151846/314868)
+recede tail  Level 3         	:	0.27442	(172881/629998)
+recede tail                  	:	0.43402	(546616/1259421)
+
+swap head                    	:	0.05629	(85941/1526740)
+
+swap tail                    	:	0.05714	(87112/1524535)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2820	            1681
+cylinder linear potential        	:	            2820	            1681
+cylinder energy                  	:	            2820	            1681
+cylinder number particles        	:	            2820	            1681
+energy                           	:	            2820	            1681
+number particles                 	:	            2820	            1681
+diagonal fraction                	:	            2820	            2820
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.25357
+
+center of mass               	:	0.51366	(209737/408317)
+
+bisection                    	:	0.82534	(6464177/7832165)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00364	(8862/2437514)
+open         Level 2         	:	0.00633	(15569/2458793)
+open         Level 3         	:	0.00693	(34430/4966071)
+open                         	:	0.00597	(58861/9862378)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99372	(9018/9075)
+close        Level 2         	:	0.95217	(15569/16351)
+close        Level 3         	:	0.81991	(34218/41734)
+close                        	:	0.87560	(58805/67160)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00551	(13848/2511571)
+insert       Level 2         	:	0.00348	(8736/2511798)
+insert       Level 3         	:	0.00227	(11415/5024301)
+insert                       	:	0.00338	(33999/10047670)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(13947/13947)
+remove       Level 2         	:	1.00000	(8734/8734)
+remove       Level 3         	:	0.94437	(11373/12043)
+remove                       	:	0.98070	(34054/34724)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70650	(212015/300094)
+advance head Level 2         	:	0.48113	(145319/302037)
+advance head Level 3         	:	0.27332	(164787/602899)
+advance head                 	:	0.43328	(522121/1205030)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.70880	(211885/298933)
+recede head  Level 2         	:	0.48628	(145444/299097)
+recede head  Level 3         	:	0.27726	(164797/594367)
+recede head                  	:	0.43788	(522126/1192397)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.70868	(212328/299610)
+advance tail Level 2         	:	0.48737	(145767/299088)
+advance tail Level 3         	:	0.27719	(164277/592644)
+advance tail                 	:	0.43847	(522372/1191342)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70596	(211438/299506)
+recede tail  Level 2         	:	0.48254	(144980/300453)
+recede tail  Level 3         	:	0.27442	(165369/602607)
+recede tail                  	:	0.43389	(521787/1202566)
+
+swap head                    	:	0.05879	(85803/1459499)
+
+swap tail                    	:	0.05760	(83736/1453849)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2780	            1711
+cylinder linear potential        	:	            2780	            1711
+cylinder energy                  	:	            2780	            1711
+cylinder number particles        	:	            2780	            1711
+energy                           	:	            2780	            1711
+number particles                 	:	            2780	            1711
+diagonal fraction                	:	            2780	            2780
+particle position                	:	            2780	            1711
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.25073
+
+center of mass               	:	0.51151	(206732/404158)
+
+bisection                    	:	0.82359	(6461973/7846090)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00370	(9168/2480082)
+open         Level 2         	:	0.00631	(15802/2505640)
+open         Level 3         	:	0.00694	(35065/5052589)
+open                         	:	0.00598	(60035/10038311)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99413	(9150/9204)
+close        Level 2         	:	0.95141	(15860/16670)
+close        Level 3         	:	0.81099	(34982/43135)
+close                        	:	0.86934	(59992/69009)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00543	(13900/2560795)
+insert       Level 2         	:	0.00340	(8711/2560659)
+insert       Level 3         	:	0.00219	(11196/5121481)
+insert                       	:	0.00330	(33807/10242935)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(13908/13908)
+remove       Level 2         	:	1.00000	(8672/8672)
+remove       Level 3         	:	0.94436	(11270/11934)
+remove                       	:	0.98076	(33850/34514)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70626	(207787/294209)
+advance head Level 2         	:	0.48261	(141547/293296)
+advance head Level 3         	:	0.27452	(161369/587817)
+advance head                 	:	0.43452	(510703/1175322)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.70771	(207492/293187)
+recede head  Level 2         	:	0.48835	(142588/291981)
+recede head  Level 3         	:	0.27738	(160878/579982)
+recede head                  	:	0.43853	(510958/1165150)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.70851	(207110/292319)
+advance tail Level 2         	:	0.48752	(141875/291011)
+advance tail Level 3         	:	0.27829	(161627/580780)
+advance tail                 	:	0.43863	(510612/1164110)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70718	(208548/294902)
+recede tail  Level 2         	:	0.48336	(142035/293849)
+recede tail  Level 3         	:	0.27422	(161116/587543)
+recede tail                  	:	0.43501	(511699/1176294)
+
+swap head                    	:	0.05808	(82123/1413934)
+
+swap tail                    	:	0.05655	(79950/1413799)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2786	            1708
+cylinder linear potential        	:	            2786	            1708
+cylinder energy                  	:	            2786	            1708
+cylinder number particles        	:	            2786	            1708
+energy                           	:	            2786	            1708
+number particles                 	:	            2786	            1708
+diagonal fraction                	:	            2786	            2786
+particle position                	:	            2786	            1708
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.25387
+
+center of mass               	:	0.51166	(206419/403433)
+
+bisection                    	:	0.82405	(6366195/7725463)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00369	(8822/2388544)
+open         Level 2         	:	0.00636	(15351/2414417)
+open         Level 3         	:	0.00693	(33727/4869590)
+open                         	:	0.00599	(57900/9672551)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99456	(8956/9005)
+close        Level 2         	:	0.94952	(15272/16084)
+close        Level 3         	:	0.81259	(33690/41460)
+close                        	:	0.87031	(57918/66549)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00524	(12925/2465416)
+insert       Level 2         	:	0.00327	(8070/2465698)
+insert       Level 3         	:	0.00211	(10428/4932219)
+insert                       	:	0.00319	(31423/9863333)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(12917/12917)
+remove       Level 2         	:	1.00000	(8037/8037)
+remove       Level 3         	:	0.94468	(10451/11063)
+remove                       	:	0.98089	(31405/32017)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70700	(212019/299885)
+advance head Level 2         	:	0.48462	(145772/300794)
+advance head Level 3         	:	0.27507	(165230/600689)
+advance head                 	:	0.43535	(523021/1201368)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.70872	(211621/298598)
+recede head  Level 2         	:	0.48610	(144790/297861)
+recede head  Level 3         	:	0.27973	(165847/592876)
+recede head                  	:	0.43912	(522258/1189335)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.70754	(211724/299239)
+advance tail Level 2         	:	0.48306	(144032/298163)
+advance tail Level 3         	:	0.27293	(162052/593759)
+advance tail                 	:	0.43471	(517808/1191161)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70535	(212099/300699)
+recede tail  Level 2         	:	0.47819	(143666/300435)
+recede tail  Level 3         	:	0.27020	(162434/601167)
+recede tail                  	:	0.43101	(518199/1202301)
+
+swap head                    	:	0.05770	(83912/1454321)
+
+swap tail                    	:	0.05801	(84233/1451978)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2745	            1668
+cylinder linear potential        	:	            2745	            1668
+cylinder energy                  	:	            2745	            1668
+cylinder number particles        	:	            2745	            1668
+energy                           	:	            2745	            1668
+number particles                 	:	            2745	            1668
+diagonal fraction                	:	            2745	            2745
+particle position                	:	            2745	            1668
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.24670
+
+center of mass               	:	0.51276	(204996/399792)
+
+bisection                    	:	0.82388	(6330383/7683633)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00363	(9024/2487344)
+open         Level 2         	:	0.00636	(15981/2513469)
+open         Level 3         	:	0.00685	(34735/5071576)
+open                         	:	0.00593	(59740/10072389)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99493	(9030/9076)
+close        Level 2         	:	0.95512	(15981/16732)
+close        Level 3         	:	0.81171	(34751/42812)
+close                        	:	0.87091	(59762/68620)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00534	(13725/2568786)
+insert       Level 2         	:	0.00341	(8761/2566092)
+insert       Level 3         	:	0.00217	(11149/5132619)
+insert                       	:	0.00328	(33635/10267497)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(13692/13692)
+remove       Level 2         	:	1.00000	(8798/8798)
+remove       Level 3         	:	0.94071	(11122/11823)
+remove                       	:	0.97957	(33612/34313)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70342	(194759/276876)
+advance head Level 2         	:	0.47887	(132530/276756)
+advance head Level 3         	:	0.26931	(149476/555030)
+advance head                 	:	0.43004	(476765/1108662)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.70607	(194946/276101)
+recede head  Level 2         	:	0.48271	(132029/273518)
+recede head  Level 3         	:	0.27393	(149707/546516)
+recede head                  	:	0.43488	(476682/1096135)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.70543	(193959/274953)
+advance tail Level 2         	:	0.48158	(131908/273908)
+advance tail Level 3         	:	0.27385	(149437/545681)
+advance tail                 	:	0.43425	(475304/1094542)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70247	(195481/278277)
+recede tail  Level 2         	:	0.47854	(132160/276174)
+recede tail  Level 3         	:	0.26796	(148721/555013)
+recede tail                  	:	0.42936	(476362/1109464)
+
+swap head                    	:	0.05697	(75223/1320312)
+
+swap tail                    	:	0.05656	(74809/1322740)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2729	            1742
+cylinder linear potential        	:	            2729	            1742
+cylinder energy                  	:	            2729	            1742
+cylinder number particles        	:	            2729	            1742
+energy                           	:	            2729	            1742
+number particles                 	:	            2729	            1742
+diagonal fraction                	:	            2729	            2729
+particle position                	:	            2729	            1742
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.25492
+
+center of mass               	:	0.51346	(186741/363690)
+
+bisection                    	:	0.82488	(5763632/6987207)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00376	(8083/2149928)
+open         Level 2         	:	0.00636	(13835/2173769)
+open         Level 3         	:	0.00688	(30162/4386839)
+open                         	:	0.00598	(52080/8710536)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99487	(7949/7990)
+close        Level 2         	:	0.95624	(13832/14465)
+close        Level 3         	:	0.81515	(30251/37111)
+close                        	:	0.87352	(52032/59566)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00544	(12091/2221915)
+insert       Level 2         	:	0.00336	(7462/2219919)
+insert       Level 3         	:	0.00223	(9904/4437482)
+insert                       	:	0.00332	(29457/8879316)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(12096/12096)
+remove       Level 2         	:	1.00000	(7522/7522)
+remove       Level 3         	:	0.94758	(9887/10434)
+remove                       	:	0.98180	(29505/30052)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70940	(193984/273448)
+advance head Level 2         	:	0.48390	(132314/273435)
+advance head Level 3         	:	0.27601	(150969/546976)
+advance head                 	:	0.43631	(477267/1093859)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.71062	(193184/271851)
+recede head  Level 2         	:	0.48651	(131883/271079)
+recede head  Level 3         	:	0.27935	(151122/540972)
+recede head                  	:	0.43933	(476189/1083902)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.70849	(192532/271749)
+advance tail Level 2         	:	0.48715	(132146/271262)
+advance tail Level 3         	:	0.27640	(149256/540003)
+advance tail                 	:	0.43761	(473934/1083014)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70527	(193062/273743)
+recede tail  Level 2         	:	0.48086	(131604/273686)
+recede tail  Level 3         	:	0.27235	(148968/546976)
+recede tail                  	:	0.43278	(473634/1094405)
+
+swap head                    	:	0.05772	(76361/1322958)
+
+swap tail                    	:	0.05641	(74678/1323753)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2482	            1500
+cylinder linear potential        	:	            2482	            1500
+cylinder energy                  	:	            2482	            1500
+cylinder number particles        	:	            2482	            1500
+energy                           	:	            2482	            1500
+number particles                 	:	            2482	            1500
+diagonal fraction                	:	            2482	            2482
+particle position                	:	            2482	            1500
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.26384
+
+center of mass               	:	0.51585	(188802/366000)
+
+bisection                    	:	0.82590	(5825435/7053456)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00360	(7381/2050744)
+open         Level 2         	:	0.00640	(13252/2071001)
+open         Level 3         	:	0.00697	(29116/4179719)
+open                         	:	0.00599	(49749/8301464)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99556	(7399/7432)
+close        Level 2         	:	0.95168	(13096/13761)
+close        Level 3         	:	0.81338	(29289/36009)
+close                        	:	0.87032	(49784/57202)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00562	(11884/2113864)
+insert       Level 2         	:	0.00354	(7500/2118924)
+insert       Level 3         	:	0.00235	(9915/4227757)
+insert                       	:	0.00346	(29299/8460545)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(11878/11878)
+remove       Level 2         	:	1.00000	(7533/7533)
+remove       Level 3         	:	0.94441	(9853/10433)
+remove                       	:	0.98057	(29264/29844)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70843	(212176/299502)
+advance head Level 2         	:	0.48700	(145540/298850)
+advance head Level 3         	:	0.27824	(166395/598026)
+advance head                 	:	0.43808	(524111/1196378)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.71200	(211159/296573)
+recede head  Level 2         	:	0.49020	(145513/296846)
+recede head  Level 3         	:	0.28209	(166832/591406)
+recede head                  	:	0.44184	(523504/1184825)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.71057	(211831/298113)
+advance tail Level 2         	:	0.48820	(144644/296283)
+advance tail Level 3         	:	0.28012	(165916/592310)
+advance tail                 	:	0.44020	(522391/1186706)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70731	(211533/299068)
+recede tail  Level 2         	:	0.48599	(146004/300426)
+recede tail  Level 3         	:	0.27595	(165223/598734)
+recede tail                  	:	0.43628	(522760/1198228)
+
+swap head                    	:	0.05787	(84865/1466499)
+
+swap tail                    	:	0.05744	(84192/1465853)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2505	            1411
+cylinder linear potential        	:	            2505	            1411
+cylinder energy                  	:	            2505	            1411
+cylinder number particles        	:	            2505	            1411
+energy                           	:	            2505	            1411
+number particles                 	:	            2505	            1411
+diagonal fraction                	:	            2505	            2505
+particle position                	:	            2505	            1411
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.25468
+
+center of mass               	:	0.51519	(211097/409743)
+
+bisection                    	:	0.82537	(6492707/7866400)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00363	(8800/2427423)
+open         Level 2         	:	0.00638	(15630/2451127)
+open         Level 3         	:	0.00692	(34182/4942673)
+open                         	:	0.00597	(58612/9821223)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99437	(8835/8885)
+close        Level 2         	:	0.95247	(15710/16494)
+close        Level 3         	:	0.81385	(34150/41961)
+close                        	:	0.87162	(58695/67340)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00554	(13870/2504726)
+insert       Level 2         	:	0.00349	(8731/2502019)
+insert       Level 3         	:	0.00230	(11507/5004067)
+insert                       	:	0.00341	(34108/10010812)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(13959/13959)
+remove       Level 2         	:	1.00000	(8719/8719)
+remove       Level 3         	:	0.94026	(11347/12068)
+remove                       	:	0.97925	(34025/34746)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70304	(216591/308078)
+advance head Level 2         	:	0.48080	(147583/306953)
+advance head Level 3         	:	0.27142	(166952/615098)
+advance head                 	:	0.43176	(531126/1230129)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.70755	(215535/304621)
+recede head  Level 2         	:	0.48633	(147978/304272)
+recede head  Level 3         	:	0.27620	(167292/605701)
+recede head                  	:	0.43702	(530805/1214594)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.70785	(216072/305253)
+advance tail Level 2         	:	0.48577	(147712/304077)
+advance tail Level 3         	:	0.27687	(167810/606101)
+advance tail                 	:	0.43737	(531594/1215431)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70741	(217706/307751)
+recede tail  Level 2         	:	0.48203	(147734/306483)
+recede tail  Level 3         	:	0.27268	(167269/613421)
+recede tail                  	:	0.43392	(532709/1227655)
+
+swap head                    	:	0.05702	(84681/1485065)
+
+swap tail                    	:	0.05780	(85903/1486171)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2794	            1693
+cylinder linear potential        	:	            2794	            1693
+cylinder energy                  	:	            2794	            1693
+cylinder number particles        	:	            2794	            1693
+energy                           	:	            2794	            1693
+number particles                 	:	            2794	            1693
+diagonal fraction                	:	            2794	            2794
+particle position                	:	            2794	            1693
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.25629
+
+center of mass               	:	0.51361	(209365/407633)
+
+bisection                    	:	0.82524	(6469455/7839530)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00369	(8843/2399398)
+open         Level 2         	:	0.00637	(15407/2419233)
+open         Level 3         	:	0.00697	(34046/4887223)
+open                         	:	0.00601	(58296/9705854)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99567	(8734/8772)
+close        Level 2         	:	0.95082	(15466/16266)
+close        Level 3         	:	0.81452	(34117/41886)
+close                        	:	0.87139	(58317/66924)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00558	(13791/2473643)
+insert       Level 2         	:	0.00354	(8755/2476313)
+insert       Level 3         	:	0.00230	(11386/4945872)
+insert                       	:	0.00343	(33932/9895828)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(13785/13785)
+remove       Level 2         	:	1.00000	(8727/8727)
+remove       Level 3         	:	0.94535	(11399/12058)
+remove                       	:	0.98094	(33911/34570)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70840	(219294/309564)
+advance head Level 2         	:	0.48486	(149980/309326)
+advance head Level 3         	:	0.27707	(171858/620266)
+advance head                 	:	0.43669	(541132/1239156)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.71130	(219404/308455)
+recede head  Level 2         	:	0.49060	(150800/307379)
+recede head  Level 3         	:	0.28037	(171572/611941)
+recede head                  	:	0.44127	(541776/1227775)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.71001	(218975/308411)
+advance tail Level 2         	:	0.48928	(150347/307283)
+advance tail Level 3         	:	0.28029	(171516/611928)
+advance tail                 	:	0.44056	(540838/1227622)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70728	(219663/310573)
+recede tail  Level 2         	:	0.48499	(150964/311270)
+recede tail  Level 3         	:	0.27522	(170745/620400)
+recede tail                  	:	0.43580	(541372/1242243)
+
+swap head                    	:	0.05664	(84996/1500547)
+
+swap tail                    	:	0.05611	(84158/1499943)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2785	            1712
+cylinder linear potential        	:	            2785	            1712
+cylinder energy                  	:	            2785	            1712
+cylinder number particles        	:	            2785	            1712
+energy                           	:	            2785	            1712
+number particles                 	:	            2785	            1712
+diagonal fraction                	:	            2785	            2785
+particle position                	:	            2785	            1712
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.25004
+
+center of mass               	:	0.51432	(172660/335708)
+
+bisection                    	:	0.82502	(5314652/6441876)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00366	(7515/2055726)
+open         Level 2         	:	0.00635	(13212/2079737)
+open         Level 3         	:	0.00704	(29509/4193297)
+open                         	:	0.00603	(50236/8328760)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99602	(7517/7547)
+close        Level 2         	:	0.95344	(13271/13919)
+close        Level 3         	:	0.81664	(29528/36158)
+close                        	:	0.87318	(50316/57624)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00559	(11875/2123826)
+insert       Level 2         	:	0.00354	(7507/2120423)
+insert       Level 3         	:	0.00233	(9885/4246081)
+insert                       	:	0.00345	(29267/8490330)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(11799/11799)
+remove       Level 2         	:	1.00000	(7502/7502)
+remove       Level 3         	:	0.94269	(9886/10487)
+remove                       	:	0.97982	(29187/29788)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70732	(167609/236965)
+advance head Level 2         	:	0.48522	(115550/238138)
+advance head Level 3         	:	0.27752	(132122/476087)
+advance head                 	:	0.43659	(415281/951190)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.71117	(168232/236555)
+recede head  Level 2         	:	0.49050	(115762/236008)
+recede head  Level 3         	:	0.28104	(131619/468328)
+recede head                  	:	0.44172	(415613/940891)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.71057	(168082/236544)
+advance tail Level 2         	:	0.48979	(115386/235581)
+advance tail Level 3         	:	0.28112	(132280/470541)
+advance tail                 	:	0.44103	(415748/942666)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70917	(168813/238042)
+recede tail  Level 2         	:	0.48442	(115214/237840)
+recede tail  Level 3         	:	0.27783	(132047/475286)
+recede tail                  	:	0.43743	(416074/951168)
+
+swap head                    	:	0.05595	(63747/1139420)
+
+swap tail                    	:	0.05733	(65214/1137471)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2289	            1419
+cylinder linear potential        	:	            2289	            1419
+cylinder energy                  	:	            2289	            1419
+cylinder number particles        	:	            2289	            1419
+energy                           	:	            2289	            1419
+number particles                 	:	            2289	            1419
+diagonal fraction                	:	            2289	            2289
+particle position                	:	            2289	            1419
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.25904
+
+center of mass               	:	0.51207	(182245/355897)
+
+bisection                    	:	0.82418	(5658719/6865878)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00372	(7639/2052603)
+open         Level 2         	:	0.00644	(13354/2073630)
+open         Level 3         	:	0.00702	(29379/4182864)
+open                         	:	0.00606	(50372/8309097)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99644	(7557/7584)
+close        Level 2         	:	0.94758	(13214/13945)
+close        Level 3         	:	0.80953	(29650/36626)
+close                        	:	0.86701	(50421/58155)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00555	(11742/2117352)
+insert       Level 2         	:	0.00353	(7471/2118629)
+insert       Level 3         	:	0.00229	(9705/4235811)
+insert                       	:	0.00341	(28918/8471792)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(11800/11800)
+remove       Level 2         	:	1.00000	(7465/7465)
+remove       Level 3         	:	0.94184	(9603/10196)
+remove                       	:	0.97987	(28868/29461)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70605	(197359/279527)
+advance head Level 2         	:	0.48202	(134539/279116)
+advance head Level 3         	:	0.27408	(153330/559435)
+advance head                 	:	0.43398	(485228/1118078)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.70973	(197453/278207)
+recede head  Level 2         	:	0.48703	(135243/277691)
+recede head  Level 3         	:	0.27683	(153217/553474)
+recede head                  	:	0.43801	(485913/1109372)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.70841	(197546/278857)
+advance tail Level 2         	:	0.48576	(134946/277806)
+advance tail Level 3         	:	0.27656	(153034/553341)
+advance tail                 	:	0.43741	(485526/1110004)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70546	(197593/280091)
+recede tail  Level 2         	:	0.48362	(134907/278951)
+recede tail  Level 3         	:	0.27402	(153259/559289)
+recede tail                  	:	0.43436	(485759/1118331)
+
+swap head                    	:	0.05755	(78343/1361277)
+
+swap tail                    	:	0.05820	(79170/1360278)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2437	            1417
+cylinder linear potential        	:	            2437	            1417
+cylinder energy                  	:	            2437	            1417
+cylinder number particles        	:	            2437	            1417
+energy                           	:	            2437	            1417
+number particles                 	:	            2437	            1417
+diagonal fraction                	:	            2437	            2437
+particle position                	:	            2437	            1417
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.23872
+
+center of mass               	:	0.51359	(206509/402091)
+
+bisection                    	:	0.82494	(6327914/7670788)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00361	(9485/2627167)
+open         Level 2         	:	0.00627	(16630/2653907)
+open         Level 3         	:	0.00685	(36628/5349479)
+open                         	:	0.00590	(62743/10630553)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99619	(9413/9449)
+close        Level 2         	:	0.94823	(16541/17444)
+close        Level 3         	:	0.81346	(36866/45320)
+close                        	:	0.86993	(62820/72213)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00549	(14889/2710564)
+insert       Level 2         	:	0.00341	(9234/2709572)
+insert       Level 3         	:	0.00222	(12052/5417589)
+insert                       	:	0.00334	(36175/10837725)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(14844/14844)
+remove       Level 2         	:	1.00000	(9289/9289)
+remove       Level 3         	:	0.94086	(11964/12716)
+remove                       	:	0.97959	(36097/36849)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70168	(174200/248261)
+advance head Level 2         	:	0.47832	(118934/248649)
+advance head Level 3         	:	0.27006	(134534/498169)
+advance head                 	:	0.42978	(427668/995079)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.70552	(173513/245935)
+recede head  Level 2         	:	0.48356	(119005/246103)
+recede head  Level 3         	:	0.27574	(135092/489923)
+recede head                  	:	0.43547	(427610/981961)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.70808	(175251/247502)
+advance tail Level 2         	:	0.48518	(118898/245061)
+advance tail Level 3         	:	0.27583	(135172/490061)
+advance tail                 	:	0.43691	(429321/982624)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70355	(175393/249297)
+recede tail  Level 2         	:	0.47946	(119580/249403)
+recede tail  Level 3         	:	0.27098	(134976/498110)
+recede tail                  	:	0.43132	(429949/996810)
+
+swap head                    	:	0.05724	(66717/1165564)
+
+swap tail                    	:	0.05613	(65393/1164989)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2725	            1816
+cylinder linear potential        	:	            2725	            1816
+cylinder energy                  	:	            2725	            1816
+cylinder number particles        	:	            2725	            1816
+energy                           	:	            2725	            1816
+number particles                 	:	            2725	            1816
+diagonal fraction                	:	            2725	            2725
+particle position                	:	            2725	            1816
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.26572
+
+center of mass               	:	0.51404	(213722/415773)
+
+bisection                    	:	0.82550	(6596658/7991072)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00355	(8110/2281922)
+open         Level 2         	:	0.00636	(14649/2302557)
+open         Level 3         	:	0.00691	(32146/4651136)
+open                         	:	0.00594	(54905/9235615)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99447	(8267/8313)
+close        Level 2         	:	0.95347	(14530/15239)
+close        Level 3         	:	0.81422	(32076/39395)
+close                        	:	0.87173	(54873/62947)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00550	(12941/2351170)
+insert       Level 2         	:	0.00344	(8113/2355120)
+insert       Level 3         	:	0.00230	(10831/4710244)
+insert                       	:	0.00339	(31885/9416534)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(12918/12918)
+remove       Level 2         	:	1.00000	(8305/8305)
+remove       Level 3         	:	0.93988	(10694/11378)
+remove                       	:	0.97902	(31917/32601)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.70741	(245649/347252)
+advance head Level 2         	:	0.48248	(167165/346467)
+advance head Level 3         	:	0.27395	(190057/693769)
+advance head                 	:	0.43451	(602871/1387488)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.70745	(244021/344931)
+recede head  Level 2         	:	0.48512	(167273/344808)
+recede head  Level 3         	:	0.27647	(189859/686722)
+recede head                  	:	0.43674	(601153/1376461)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.70835	(244953/345807)
+advance tail Level 2         	:	0.48637	(167397/344178)
+advance tail Level 3         	:	0.27703	(190608/688043)
+advance tail                 	:	0.43755	(602958/1378028)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.70843	(246280/347641)
+recede tail  Level 2         	:	0.48261	(167045/346131)
+recede tail  Level 3         	:	0.27344	(189886/694433)
+recede tail                  	:	0.43453	(603211/1388205)
+
+swap head                    	:	0.05816	(99270/1706922)
+
+swap tail                    	:	0.05791	(98895/1707705)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+cylinder linear density          	:	            2838	            1582
+cylinder linear potential        	:	            2838	            1582
+cylinder energy                  	:	            2838	            1582
+cylinder number particles        	:	            2838	            1582
+energy                           	:	            2838	            1582
+number particles                 	:	            2838	            1582
+diagonal fraction                	:	            2838	            2838
+particle position                	:	            2838	            1582
+
+---------- End Estimator Data ------------------
