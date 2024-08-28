@@ -11,8 +11,10 @@ import json
 def lab(_ΔR):
     return f'dR_eq_{_ΔR:3.1f}'
 
-def base_dir(_ΔR,cylinder=True):
-    base = f'{data_dir}/{lab(_ΔR)}/OUTPUT/MERGED'
+def base_dir(_ΔR,cylinder=True, raw=True):
+    base = f'{data_dir}/{lab(_ΔR)}'
+    if raw:
+        base += '/OUTPUT/MERGED'
     if cylinder:
         base += '/CYLINDER'
     return base
@@ -48,7 +50,7 @@ try:
 
 except:
     pimc_bin_path = input("Enter path to `pimcscripts` executables (see e.g. https://github.com/DelMaestroGroup/pimcscripts): ")
-    data_dir = input("Enter path to raw QMC Data (e.g. '../data/qmc/'): ")
+    data_dir = input("Enter path to merged QMC Data (e.g. '../data'): ")
     gnu_parallel = input("Enter path to gnu parallel (e.g. '/local/bin/parallel'): ")
 
     local = {'pimc_bin_path':pimc_bin_path, 'data_dir':data_dir, 'gnu_parallel':gnu_parallel}
