@@ -1,7 +1,7 @@
 [![Paper](https://img.shields.io/badge/paper-arXiv%3AXXXX.YYYYY-B31B1B.svg)](https://arxiv.org/abs/XXXX.YYYYY)
 [![DOI](https://zenodo.org/badge/XXXYYYZZZ.svg)](https://zenodo.org/badge/latestdoi/XXXYYYZZZ)
 
-# Friedel oscillations in one-dimensional <sup>4</sup>$He
+# Friedel oscillations in one-dimensional <sup>4</sup>He
 
 Bernd Rosenow and Adrian Del Maestro
 
