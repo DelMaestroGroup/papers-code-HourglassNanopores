@@ -5,8 +5,6 @@ import subprocess, sys
 import numpy as np
 import json
 
-#data_dir = '/lustre/isaac/scratch/agdelma/Projects/HourGlass/w_eq_3.0'
-
 def get_path(cmd, hint=''):
     """Get the path to a needed executable. """
     try:
@@ -56,9 +54,9 @@ try:
 
 except:
     pimc_bin_path = get_path('merge.py',hint='(see e.g. https://github.com/DelMaestroGroup/pimcscripts)')
-    gnu_parallel = get_path('parallel', hint='(e.g. `/local/bin/parallel`): ')
-    data_dir = input("Enter path to merged QMC Data (enter for default `../data`): ") or '../data'
-    raw_data_dir = input("Enter path to raw QMC data (enter for default `../data/qmc`: ") or '../data/qmc'
+    gnu_parallel = get_path('parallel', hint='(e.g. /localb∈paral≤l/local/bin/parallel): ')
+    data_dir = input("Enter path to merged QMC Data (enter for default ..data../data): ") or '../data'
+    raw_data_dir = input("Enter path to raw QMC data (enter for default ..dataqmc../data/qmc: ") or '../data/qmc'
     
     local = {'pimc_bin_path':pimc_bin_path, 'data_dir':data_dir, 'gnu_parallel':gnu_parallel, 
             'raw_data_dir':raw_data_dir}

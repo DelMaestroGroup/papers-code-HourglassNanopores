@@ -25,8 +25,26 @@ The creation of these materials was supported in part by the National Science Fo
 
 ### Figures
 
-#### Figure 01: Figure Name
-<img src="https://github.com/DelMaestroGroup/papers-code-template/blob/main/figures/figure01.svg" width="400px">
+#### Figure 01: Hourglass Potential
+<img src="https://github.com/DelMaestroGroup/papers-code-HourglassNanopores/blob/main/figures/hourglass_potential.svg" width="400px">
 
-This figure is relesed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) and can be freely copied, redistributed and remixed.
+#### Figure 02: Particle Density Inside the Pore
+<img src="https://github.com/DelMaestroGroup/papers-code-HourglassNanopores/blob/main/figures/pore_adsorption_details_dR_eq_4.0.svg" width="400px">
 
+#### Figure 03: Friedel Oscillations
+<img src="https://github.com/DelMaestroGroup/papers-code-HourglassNanopores/blob/main/figures/combined_fit_friedel_dR_eq_4.0_reversed_no_inset.svg" width="400px">
+
+#### Figure 04: Luttinger Liquid Transport
+<img src="https://github.com/DelMaestroGroup/papers-code-HourglassNanopores/blob/main/figures/LL_transport.svg" width="400px">
+
+#### Supplemental Figure 01: Potential Cuts
+
+<img src="https://github.com/DelMaestroGroup/papers-code-HourglassNanopores/blob/main/figures/hourglass_U.svg" width="400px">
+
+#### Supplemental Figure 02: Estimators in the Core
+
+<img src="https://github.com/DelMaestroGroup/papers-code-HourglassNanopores/blob/main/figures/seed_distributions.svg" width="400px">
+
+#### Supplemental Figure 02: Density inside the Core
+
+<img src="https://github.com/DelMaestroGroup/papers-code-HourglassNanopores/blob/main/figures/rho_vs_x_seeds.svg" width="400px">
