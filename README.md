@@ -1,27 +1,28 @@
 [![Paper](https://img.shields.io/badge/paper-arXiv%3AXXXX.YYYYY-B31B1B.svg)](https://arxiv.org/abs/XXXX.YYYYY)
-[![DOI](https://zenodo.org/badge/214220909.svg)](https://zenodo.org/badge/latestdoi/214220909)
+[![DOI](https://zenodo.org/badge/XXXYYYZZZ.svg)](https://zenodo.org/badge/latestdoi/XXXYYYZZZ)
 
-# Paper Title
+# Friedel oscillations in one-dimensional <sup>4</sup>He
 
-Author 1, Author 2, Author 3
+Bernd Rosenow and Adrian Del Maestro
 
 [arXiv:XXXX.YYYYY](https://arxiv.org/abs/XXXX.YYYYY)
 
 ### Abstract
-Abstract Here
+One-dimensional bosonic systems, such as helium confined to nanopores, exhibit Luttinger liquid behavior characterized by density waves as collective excitations. We investigate the impact of hourglass-shaped constrictions, found in real experimental nanopores, on a low dimensional quantum liquid.  We consider a microscopic model of <sup>4</sup>He inside a perturbed nanopore with a localized constriction, and employ quantum Monte Carlo simulations to analyze the density of the core within an effective low-energy framework. Our results reveal the emergence of Friedel oscillations in a bosonic quantum liquid without a Fermi surface. Furthermore, we utilize the Luttinger liquid model to predict experimentally observable signatures of this pinning phenomena in elastic scattering and via the temperature and pressure dependence of mass transport through the deformed nanopore.
 
 ### Description
 This repository includes links, code, scripts, and data to generate the figures in a paper.
 
 ### Requirements
-The data in this project was generated via exact diagonalization.  Everything included in the [data](https://github.com/DelMaestroGroup/papers-code-template/tree/main/data) directory was generated via:
+The data in this project was generated via quantum Monte Carlo simulations with the worm algorithm.
 
-* [Dependency Name](https://dependencelink)
+Raw simulation data set is available online at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13743089.svg)](https://doi.org/10.5281/zenodo.13743089).
+
+1. A minimal environment to execute these notebooks can be installed via `pip install -r requirements.txt`
+2. All quantum Monte Carlo data was generated with our [open source path integral software](https://code.delmaestro.org) also available on [github](https://github.com/delmaestrogroup/pimc)
 
 ### Support
-The creation of these materials was supported in part by the National Science Foundation under Award No. DMR-1553991.
-
-[<img width="100px" src="https://www.nsf.gov/images/logos/NSF_4-Color_bitmap_Logo.png">](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1553991)
+This work was performed with support from the U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, under Award Number DE-SC0024333.
 
 ### Figures
 
