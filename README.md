@@ -1,5 +1,5 @@
 [![Paper](https://img.shields.io/badge/paper-arXiv%3AXXXX.YYYYY-B31B1B.svg)](https://arxiv.org/abs/XXXX.YYYYY)
-[![DOI](https://zenodo.org/badge/XXXYYYZZZ.svg)](https://zenodo.org/badge/latestdoi/XXXYYYZZZ)
+[![DOI](https://zenodo.org/badge/636411186.svg)](https://zenodo.org/doi/10.5281/zenodo.13832054)
 
 # Friedel oscillations in one-dimensional <sup>4</sup>He
 
