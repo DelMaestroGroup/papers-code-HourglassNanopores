@@ -16,7 +16,7 @@ This repository includes links, code, scripts, and data to generate the figures 
 ### Requirements
 The data in this project was generated via quantum Monte Carlo simulations with the worm algorithm.
 
-Processed and the raw simulation data set is available online at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13743089.svg)](https://doi.org/10.5281/zenodo.13743089).
+Raw simulation data set is available online at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13743089.svg)](https://doi.org/10.5281/zenodo.13743089).
 
 1. A minimal environment to execute these notebooks can be installed via `pip install -r requirements.txt`
 2. All quantum Monte Carlo data was generated with our [open source path integral software](https://code.delmaestro.org) also available on [github](https://github.com/delmaestrogroup/pimc)
