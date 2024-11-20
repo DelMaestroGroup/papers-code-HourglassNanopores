@@ -26,11 +26,11 @@ This work was performed with support from the U.S. Department of Energy, Office 
 
 ### Figures
 
-#### Figure 01: Hourglass Potential
-<img src="https://github.com/DelMaestroGroup/papers-code-HourglassNanopores/blob/main/figures/hourglass_potential.svg" width="400px">
-
-#### Figure 02: Particle Density Inside the Pore
+#### Figure 01: Particle Density Inside the Pore
 <img src="https://github.com/DelMaestroGroup/papers-code-HourglassNanopores/blob/main/figures/pore_adsorption_details_dR_eq_4.0.svg" width="400px">
+
+#### Figure 02: Hourglass Potential
+<img src="https://github.com/DelMaestroGroup/papers-code-HourglassNanopores/blob/main/figures/hourglass_potential.svg" width="400px">
 
 #### Figure 03: Friedel Oscillations
 <img src="https://github.com/DelMaestroGroup/papers-code-HourglassNanopores/blob/main/figures/combined_fit_friedel_dR_eq_4.0_reversed_no_inset.svg" width="400px">
