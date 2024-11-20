@@ -36,7 +36,7 @@ This work was performed with support from the U.S. Department of Energy, Office 
 <img src="https://github.com/DelMaestroGroup/papers-code-HourglassNanopores/blob/main/figures/combined_fit_friedel_dR_eq_4.0_reversed_no_inset.svg" width="400px">
 
 #### Figure 04: Luttinger Liquid Transport
-<img src="https://github.com/DelMaestroGroup/papers-code-HourglassNanopores/blob/main/figures/LL_transport.svg" width="400px">
+<img src="https://github.com/DelMaestroGroup/papers-code-HourglassNanopores/blob/main/figures/vsovstar_vs_ToTstar_varP_inset.svg" width="400px">
 
 #### Supplemental Figure 01: Potential Cuts
 
