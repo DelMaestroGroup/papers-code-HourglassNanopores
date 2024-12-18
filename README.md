@@ -1,11 +1,11 @@
-[![Paper](https://img.shields.io/badge/paper-arXiv%3AXXXX.YYYYY-B31B1B.svg)](https://arxiv.org/abs/XXXX.YYYYY)
+[![Paper](https://img.shields.io/badge/paper-arXiv%3A2411.13654-B31B1B.svg)](https://arxiv.org/abs/2411.13654)
 [![DOI](https://zenodo.org/badge/636411186.svg)](https://zenodo.org/doi/10.5281/zenodo.13832054)
 
 # Friedel oscillations in one-dimensional <sup>4</sup>He
 
 Bernd Rosenow and Adrian Del Maestro
 
-[arXiv:XXXX.YYYYY](https://arxiv.org/abs/XXXX.YYYYY)
+[arXiv:2411.13654](https://arxiv.org/abs/2411.13654)
 
 ### Abstract
 One-dimensional bosonic systems, such as helium confined to nanopores, exhibit Luttinger liquid behavior characterized by density waves as collective excitations. We investigate the impact of hourglass-shaped constrictions, found in real experimental nanopores, on a low dimensional quantum liquid.  We consider a microscopic model of <sup>4</sup>He inside a perturbed nanopore with a localized constriction, and employ quantum Monte Carlo simulations to analyze the density of the core within an effective low-energy framework. Our results reveal the emergence of Friedel oscillations in a bosonic quantum liquid without a Fermi surface. Furthermore, we utilize the Luttinger liquid model to predict experimentally observable signatures of this pinning phenomena in elastic scattering and via the temperature and pressure dependence of mass transport through the deformed nanopore.
