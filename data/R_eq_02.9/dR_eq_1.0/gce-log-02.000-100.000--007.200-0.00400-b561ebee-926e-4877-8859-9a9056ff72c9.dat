@@ -1,0 +1,47 @@
+# PIMCID: b561ebee-926e-4877-8859-9a9056ff72c9
+
+# /lustre/isaac24/scratch/agdelma/Projects/HourGlass/R_eq_2.90/w_eq_3.0/dR_eq_0.0/./pimc.e -p 004 -T 2.0 -N 1 --geometry=cylinder -r 2.9 -L 100 -u -7.200000000000000e+00 -t 0.004 -M 8 --estimator_radius=1.75 -E 100000 -S 10000 -l 12 -X hg_tube --hourglass_radius=1.0 --hourglass_width=1.5 -I aziz --label=w3p0dR0p00 -C 7.831698813614601e+00 -D 2.467308405077687e-01 --relax -R b561ebee-926e-4877-8859-9a9056ff72c9 --estimator="cylinder linear density" --estimator="cylinder linear potential" --estimator="cylinder energy" --estimator="cylinder number particles" --estimator=energy --estimator="number particles" --estimator="diagonal fraction" --estimator="cylinder pair correlation function" --estimator="particle position" --estimator="radial density" 
+
+---------- Begin Simulation Parameters ----------
+
+Command String          	:	/lustre/isaac24/scratch/agdelma/Projects/HourGlass/R_eq_2.90/w_eq_3.0/dR_eq_0.0/./pimc.e -p 4 -T 2.0 -N 1 --geometry=cylinder -r 2.9 -L 100 -u -7.2 -t 0.004 -M 8 --estimator_radius=1.75 -E 100000 -S 10000 -l 12 -X hg_tube --hourglass_radius=1.0 --hourglass_width=1.5 -I aziz --label=w3p0dR0p00 -C 10.0 -D 2.467308405077687e-01 --relax --estimator="cylinder linear density" --estimator="cylinder linear potential" --estimator="cylinder energy" --estimator="cylinder number particles" --estimator=energy --estimator="number particles" --estimator="diagonal fraction" --estimator="cylinder pair correlation function" --estimator="particle position" --estimator="radial density" 
+Ensemble                	:	grand canonical
+Simulation Type         	:	PIMC
+Action Type             	:	gsf
+Number of paths         	:	1
+Interaction Potential   	:	aziz
+External Potential      	:	hg_tube
+HourGlass Radius        	:	1.00   
+HourGlass Width         	:	1.50   
+Temperature             	:	2.00000
+Chemical Potential      	:	-7.20000
+Particle Mass           	:	4.00300
+Number Time Slices      	:	124
+Specified Imaginary Time Step	:	0.00400
+Imaginary Time Step     	:	0.00403
+Imaginary Time Length   	:	0.50000
+Initial Number Particles	:	1
+Initial Density         	:	0.00038
+Num. Broken World-lines 	:	0
+Container Type          	:	Cylinder
+Cylinder Radius         	:	2.90000
+Estimator Radius        	:	1.75000
+Container Dimensions    	:	5.80000 x 5.80000 x 100.00000
+Container Volume        	:	2642.07942
+Lookup Table            	:	1 x 1 x 8
+Maximum Winding Sector  	:	1
+Initial Worm Constant   	:	10.00000
+Worm Constant           	:	7.83170
+Initial CoM Delta       	:	0.24673
+CoM Delta               	:	0.24673
+Bisection Parameter     	:	3
+Update Length           	:	8
+Potential Cutoff Length 	:	12.00000
+Bin Size                	:	100
+Number EQ Steps         	:	100000
+Number Bins Stored      	:	10000
+Random Number Seed      	:	139857
+Virial Window           	:	5
+PIMCID Label            	:	w3p0dR0p00
+
+---------- End Simulation Parameters ------------
