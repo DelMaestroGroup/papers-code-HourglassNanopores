@@ -9,6 +9,8 @@ graphenetools
 argparse
 pickle
 heprops
+tarfile
+shutil
 
 ## Installed from git
 git+git://github.com/DelMaestroGroup/dgutils.git#egg=dgutils

@@ -8,7 +8,6 @@ from dgutils import colors as colortools
 from scipy.interpolate import Akima1DInterpolator
 import math
 
-
 grey = '#4B4B4B'
 
 # -------------------------------------------------------------------------------------------------------------------
@@ -35,6 +34,11 @@ def Tlab(_ΔR,_T):
 def leg_lab(_ΔR):
     """Return a legend label."""
     return f"$\\delta R = {_ΔR}\\; \\mathrm{{\\AA}}$"
+
+# -------------------------------------------------------------------------------------------------------------------
+def Rlab(_R):
+    """Dictionary key generator. """
+    return f'R_eq_{_R:04.1f}'
 
 # -------------------------------------------------------------------------------------------------------------------
 def base_dir(_ΔR,cylinder=True, raw=False, R=12.0):
